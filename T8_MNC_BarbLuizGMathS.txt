@@ -1,0 +1,104 @@
+################## OBSERVAÇÕES ##################
+	AS FUNÇÕES ENCONTRAM-SE NO ARQUIVO ajustes.cs, O QUAL ENCONTRA-SE DENTRO DA PASTA AjusteDeCurvas
+
+################## INTEGRANTES ##################
+Barbara Carvalho Silva		RA: 141021594
+Luiz Guilherme Silva		RA: 131024451
+Matheus Coelho Solha		RA: 141027134
+
+############## LINGUAGEM UTILIZADA ##############
+	Para o desenvolvimento do Trabalho 8 foi utilizada a linguagem de programação C#, a qual é uma linguagem de programação orientada a objeto, contendo recursos adicionais do que a linguagem C.
+
+############# FUNÇÕES DESENVOLVIDAS #############
+-> Ajuste de reta:
+--Exemplo 1
+//ENTRADA
+número de pontos: 6
+valores de x: -2,0 | -0,5 | 1,2 | 2,1 | 3,5 | 5,4
+valores de y: 4,4 | 5,5 | 3,2 | 1,6 |0,6 | -0,6
+//SAÍDA
+coeficiente a: -0,8165
+termo independente: 3,7701
+valores ajustados y: 5,40 | 4,17 | 2,79 | 2,05 | 0,91 | -0,63
+erro: 0
+
+--Exemplo 2
+número de pontos: 5
+valores de x: 1,5 | 3,4 | 5,1 | 6,8 | 8,0 
+valores de y: 2,0 | 5,0 | 3,8 | 6,1 | 5,8
+//SAÍDA
+coeficiente a: 0,5422
+termo independente: 1,8506
+valores ajustados y: 2,663 | 3,694 | 4,615 | 5,537 | 6,188
+erro: 0
+
+->Ajuste Polinomial
+--Exemplo 1
+//ENTRADA
+número de pontos: 6
+valores de x: -2,0 | -1,5 | 0,0 | 1,0 | 2,2 | 3,1
+valores de y: -30,5 | -20,2 | -3,3 | 9,2 | 16,8 | 21,4
+grau desejado: 2
+//SAÍDA
+coeficientes: -1,2458 (x^2) | 11,3624 (x^1) | -1,8966
+valores y: -24,6216 | -18,9404 | -1,8966 | 9,4657 | 23,1007 | 33,3270
+erro:0
+
+--Exemplo 1
+//ENTRADA
+número de pontos: 4
+valores de x: -4,0 | -2,0 | 0,0 | 1,0
+valores de y: 255,0 | 54,0 | 6,0 | 13,0
+grau desejado: 3
+//SAÍDA
+coeficientes: -1,0083 (x^3) | 9,3249 (x^2) | -1,3166 (x^1) | 6,0000
+valores y: -160,4666 | 45,9333 | 6,0000 | 14,0083
+erro:0
+
+->Exponencial 1
+--Exemplo 1
+//ENTRADA
+número de pontos: 5
+valores de x: 0,0 | 0,5 | 1,0 | 2,5 | 3,0
+valores de y: 2,0 | 2,6 | 3,7 | 13,2 | 21,0
+//SAÍDA
+coeficiente a: 1,8171
+coeficiente b: 2,2241
+valores y: 1,8170 | 2,7099 | 4,0414 | 13,4053 | 19,9920
+erro: 0
+
+--Exemplo 2
+//ENTRADA
+número de pontos: 4
+valores de x: 0,1 | 1,5 | 3,3 | 4,5
+valores de y: 1,7 | 2,1 | 2,4 | 2,9
+//SAÍDA
+coeficiente a: 1,7055
+coeficiente b: 1,1214
+valores y: 1,7251 | 2,0253 | 2,4894 | 2,8565
+erro: 0
+
+->Exponencial 2
+--Exemplo 1
+//ENTRADA
+número de pontos: 5
+valores de x: 0,1 | 1,5 | 3,3 | 4,5 | 5,0
+valores de y: 1,7 | 2,1 | 2,4 | 2,9 | 3,1
+//SAÍDA
+coeficiente a: 1,6988
+coeficiente b: 0,1177
+valores y: 1,7188 | 2,0267 | 2,5049 | 2,8848 | 3,0596
+erro: 0
+
+--Exemplo 1
+//ENTRADA
+número de pontos: 4
+valores de x: 0,00 | 0,20 | 0,50 | 0,60
+valores de y: 0,06 | 0,12 | 0,30 | 0,60
+//SAÍDA
+coeficiente a: 0,0581
+coeficiente b: 3,6405
+valores y: 0,05811 | 0,1203 | 0,3587 | 0,5163
+erro: 0
+############## CONCLUSÃO #################
+	Através dos algoritmos implementados, pode-se concluir que ao utilizar os ajustes de curvas é possível fazer projeções para o futuro e com isso ter um planejamento melhor.
